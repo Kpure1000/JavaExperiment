@@ -48,7 +48,7 @@ public class Cylinder extends Circle {
      * @return 体积
      */
     public double getVol() {
-        return getPerimeter() / 2 * redius * height;
+        return super.getPerimeter() / 2 * redius * height;
     }
 
     /**
